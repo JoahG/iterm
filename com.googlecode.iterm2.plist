@@ -8,16 +8,6 @@
 	<integer>0</integer>
 	<key>AlternateMouseScroll</key>
 	<true/>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>CopySelection</key>
 	<false/>
 	<key>Default Bookmark Guid</key>
@@ -32,6 +22,17 @@
 			<integer>39</integer>
 			<key>Text</key>
 			<string></string>
+		</dict>
+		<key>0x54-0x120000-0x11</key>
+		<dict>
+			<key>Action</key>
+			<integer>61</integer>
+			<key>Label</key>
+			<string></string>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>1</integer>
 		</dict>
 		<key>0x7f-0x100000</key>
 		<dict>
@@ -161,6 +162,8 @@
 			<false/>
 			<key>Ansi 0 Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
 				<real>0.25882352941176473</real>
 				<key>Color Space</key>
@@ -456,6 +459,8 @@
 			<real>1</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Use Transparency</key>
+			<true/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -759,6 +764,8 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Minimum Contrast</key>
+			<real>0.14703776041666666</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -769,6 +776,8 @@
 			<true/>
 			<key>Normal Font</key>
 			<string>MesloLGMForPowerline-Regular 14</string>
+			<key>Only The Default BG Color Uses Transparency</key>
+			<false/>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
